@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção de usuários do sistema interno</title>
+</head>
+<body>
+    <p>Manutenção de usuários do sistema interno</p>
+    <form>
+    <label>Nome:</label>
+    <input type="text" name="nome">
+    <br><br>
+    <label>Senha</label>
+    <input type="password" name="senha">
+    <br><br>
+    <label>Status</label>
+    <select name="status">
+        <option value="ativo">Ativo</option>
+        <option value="inativo">Inativo</option>
+    </select>
+    <br><br>
+    <label>Tipo</label>
+    <input type="radio" name="tipo" value="Técnico">Técnico
+    <input type="radio" name="tipo" value="Professor">Professor
+    <input type="radio" name="tipo" value="Aluno">Aluno
+    <br><br>
+    <label>Data Criação</label>
+    <input type="date" name="data_criacao">
+    <br><br>
+    <label>Perfil</label>
+    <input type="radio" name="convidado" value="convidado">Convidado
+    <input type="radio" name="administrador" value="Administrador">Administrador
+    <br><br>
+    <label>Observações</label>
+    <textarea style="width: 300px; height: 100px;" name="Observações"></textarea>
+    <br><br>
+    <input type="checkbox" name="compras" value="compras">Compras
+    <input type="checkbox" name="Biblioteca" value="biblioteca">biblioteca
+    <input type="checkbox" name="Acadêmico" value="academico">Acadêmico
+    <br>
+    <p><b>Módulos</b></p>
+    <br>
+    <input type="checkbox" name="Documentação" value="documentação">Documentação
+    <input type="checkbox" name="recursos humanos" value="recursos humanos">Recursos Humanos
+    <br><br>
+    <input type="submit" value="Cadastrar">
+    <input type="reset" value="Limpar Campos">
+
+    </form>
+</body>
+</html>
